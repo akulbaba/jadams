@@ -4,7 +4,7 @@ html, body {
 	background: -o-linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
 	background: -moz-linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
 	background: linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
-	font-family: "permanent marker", cursive;
+	font-family: "permanent marker", Georgia, serif;
 	color: #909090;
 	text-align: center;
 	height: 100%;
@@ -82,6 +82,11 @@ html, body {
 	padding: 10px;
 	background: #C0C0C0;
 	border-radius: 15px;
+}
+
+.footer {
+	color: #404040;
+	font-size: 0.75em;
 }
 
 nav {
