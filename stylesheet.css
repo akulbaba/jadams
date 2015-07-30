@@ -7,7 +7,8 @@ html, body {
 	font-family: "permanent marker", Georgia, serif;
 	color: #909090;
 	text-align: center;
-	height: 100%;
+	height: auto;
+	min-height: 100%;
 }
 
 @font-face {
