@@ -62,6 +62,7 @@ html, body {
 	padding: 10px;
 	background: #C0C0C0;
 	border-radius: 15px;
+	overflow: auto;
 }
 
 .lcol {
@@ -88,6 +89,31 @@ html, body {
 .footer {
 	color: #404040;
 	font-size: 0.75em;
+	margin: auto;
+}
+
+.gallery {
+	margin: auto;
+	overflow: auto;
+}
+
+.gallery img, .lt img {
+	display: inline-block;
+	margin: 5px auto 5px auto;
+	border-radius: 7px;
+}
+
+.st {
+	width: 50%;
+	float: left;
+	margin: auto;
+}
+
+.lt {
+	width: 45%;
+	float: right;
+	margin: auto;
+	overflow: hidden;
 }
 
 nav {
