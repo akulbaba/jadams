@@ -1,10 +1,10 @@
 html, body {
-	background: -webkit-linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
+	background: -webkit-linear-gradient(-45deg, #80FFBC, #61ffab, #28FF8D);
 	background: -o-linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
 	background: -moz-linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
-	background: linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
+	background: linear-gradient(-45deg, #A55E59, #903F3B, #762E29);
 	font-family: Helvetica, Chivo, Serif;
-	color: #909090;
+	color: #1F1F1F;
 	text-align: center;
 	height: auto;
 	min-height: 100%;
@@ -68,7 +68,7 @@ html, body {
 	margin: auto;
 	margin-bottom: 10px;
 	padding: 10px;
-	background: #C0C0C0;
+	background: #F3E5AA;
 	border-radius: 15px;
 	overflow: auto;
 }
@@ -95,7 +95,7 @@ html, body {
 }
 
 .footer {
-	color: #404040;
+	color: #F3E9C3;
 	font-size: 0.75em;
 	margin: auto;
 }
@@ -130,11 +130,10 @@ nav {
 
 a {
 	text-decoration: none;
-	color: #868686;
+	color: #E67F78;
 }
 
 a:hover, a:active {
-	color: #404040;
 	font-weight: bold;
 }
 
@@ -143,17 +142,16 @@ a:hover {
 }
 
 a:visited {
-	color: #606060;
+	color: #E6A6A1;
 }
 
 h1 {
 	font-size: 4em;
-	color: #949494;
 }
 
 h2 {
 	font-size: 2em;
-	color: #404040;
+	color: #F3E9C3;
 }
 
 h3 {
