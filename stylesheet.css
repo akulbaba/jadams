@@ -1,12 +1,18 @@
+
 html, body {
 	background: -webkit-linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
 	background: -o-linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
 	background: -moz-linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
 	background: linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
-	font-family: 'Permanent Marker', cursive;
+	font-family: "permanent marker", cursive;
 	color: #909090;
 	text-align: center;
 	height: 100%;
+}
+
+@font-face {
+	font-family: "permanent marker";
+	src: url(PermanentMarker.ttf);
 }
 
 .content {
