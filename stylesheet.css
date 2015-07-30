@@ -1,0 +1,115 @@
+html, body {
+	background: -webkit-linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
+	background: -o-linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
+	background: -moz-linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
+	background: linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
+	font-family: 'Permanent Marker', cursive;
+	color: #909090;
+	text-align: center;
+	height: 100%;
+}
+
+.content {
+	width: 75%;
+	overflow: auto;
+	position:relative;
+	margin: 20px auto auto auto;
+	padding: 15px;
+	border-radius: 10px;
+	background: #7F7F7F;
+	background: rgba(50, 50, 50, 0.5);
+}
+
+.icons {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.icons a{
+	display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+    vertical-align: middle;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+}
+
+.icons a.email { background: url(images/social-icons-sprites/img/social-icons/email.png) left top no-repeat; }
+.icons a.deviantart { background: url(images/social-icons-sprites/img/social-icons/deviantart.png) left top no-repeat; }
+.icons a.googleplus { background: url(images/social-icons-sprites/img/social-icons/googleplus.png) left top no-repeat; }
+.icons a.tumblr { background: url(images/social-icons-sprites/img/social-icons/tumblr.png) left top no-repeat; }
+
+.icons a:hover {
+	background-position: left -34px;
+}
+
+.article {
+	height: auto;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+	background: #C0C0C0;
+	border-radius: 15px;
+}
+
+.lcol {
+	float: left;
+	width: 55%;
+	padding: 15px;
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+	background: #C0C0C0;
+	border-radius: 15px;
+}
+
+.rcol {
+	float: right;
+	width: 35%;
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+	background: #C0C0C0;
+	border-radius: 15px;
+}
+
+nav {
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: #868686;
+}
+
+a:hover, a:active {
+	color: #404040;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #606060;
+}
+
+h1 {
+	font-size: 4em;
+	color: #949494;
+}
+
+h2 {
+	font-size: 2em;
+	color: #404040;
+}
+
+h3 {
+	text-align: left;
+}
