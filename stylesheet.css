@@ -1,10 +1,9 @@
-
 html, body {
 	background: -webkit-linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
 	background: -o-linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
 	background: -moz-linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
 	background: linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
-	font-family: "permanent marker", Georgia, serif;
+	font-family: Helvetica, Chivo, Serif;
 	color: #909090;
 	text-align: center;
 	height: auto;
@@ -12,14 +11,14 @@ html, body {
 }
 
 @font-face {
-	font-family: "permanent marker";
-	src: url(PermanentMarker.ttf);
+	font-family: Chivo;
+	src: url("chivo-regular.ttf");
 }
 
 .content {
 	width: 75%;
 	overflow: auto;
-	position:relative;
+	position: relative;
 	margin: 20px auto auto auto;
 	padding: 15px;
 	border-radius: 10px;
