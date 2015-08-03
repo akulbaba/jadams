@@ -8,6 +8,7 @@ html, body {
 	text-align: center;
 	height: auto;
 	min-height: 100%;
+	overflow-x: hidden;
 }
 
 @font-face {
@@ -29,7 +30,7 @@ html, body {
 	overflow: auto;
 	position: relative;
 	margin: 20px auto auto auto;
-	padding: 15px;
+	padding: 0 15px 15px 15px;
 	border-radius: 10px;
 	background: #7F7F7F;
 	background: rgba(50, 50, 50, 0.5);
@@ -79,24 +80,20 @@ html, body {
 	overflow: auto;
 }
 
-.lcol {
+.lcol, .st {
 	float: left;
-	width: 55%;
-	padding: 15px;
+	width: 50%;
 	margin: auto;
 	margin-bottom: 10px;
-	padding: 10px;
-	background: #C0C0C0;
 	border-radius: 15px;
 }
 
-.rcol {
+.rcol, .lt {
 	float: right;
-	width: 40%;
+	width: 45%;
 	margin: auto;
 	margin-bottom: 10px;
 	padding: 10px;
-	background: #C0C0C0;
 	border-radius: 15px;
 }
 
@@ -120,17 +117,42 @@ html, body {
 	border-radius: 7px;
 }
 
-.st {
-	width: 50%;
-	float: left;
-	margin: auto;
+@media (max-width: 1000px) {
+	html, body {
+		margin: 0 !important;
+	}
+	.content {
+		width: 90%;
+	}
+	.article {
+		width: 90%;
+	}
+	.icons {
+		position: relative;
+		margin: auto;
+		margin-bottom: 15px;
+	}
+	.st {
+		width: 90%;
+		float: none;
+	}
+	.lt {
+		width: 95%;
+		float: none;
+	}
 }
 
-.lt {
-	width: 45%;
-	float: right;
-	margin: auto;
-	overflow: hidden;
+@media (max-width: 500px) {
+	.banner {
+		background-size: 100%, auto;       /* work in progress! continue here! */
+	}
+	.content{
+		width: 95%;
+	}
+	.article {
+		width: 95%;
+	}
+
 }
 
 nav {
