@@ -62,6 +62,12 @@ html, body {
 	background-position: left -34px;
 }
 
+.i {
+	background: #F3E5AA;
+	border-radius: 50%;
+	display: inline-block;
+}
+
 .article {
 	height: auto;
 	width: 80%;
