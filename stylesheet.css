@@ -1,7 +1,7 @@
 html, body {
-	background: -webkit-linear-gradient(-45deg, #80FFBC, #61ffab, #28FF8D);
-	background: -o-linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
-	background: -moz-linear-gradient(-45deg, #80FFBC, #61FFAB, #28FF8D);
+	background: -webkit-linear-gradient(-45deg, #A55E59, #903F3B, #762E29);
+	background: -o-linear-gradient(-45deg, #A55E59, #903F3B, #762E29);
+	background: -moz-linear-gradient(-45deg, #A55E59, #903F3B, #762E29);
 	background: linear-gradient(-45deg, #A55E59, #903F3B, #762E29);
 	font-family: Helvetica, Chivo, Serif;
 	color: #1F1F1F;
