@@ -133,11 +133,11 @@ html, body {
 		margin: auto;
 		margin-bottom: 15px;
 	}
-	.st {
+	.lcol, .st {
 		width: 90%;
 		float: none;
 	}
-	.lt {
+	.rcol, .lt {
 		width: 95%;
 		float: none;
 	}
