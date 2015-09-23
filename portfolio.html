@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 
-<html>
+
+
+<html lang="en">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>J Adams</title>
 <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
 <link rel="stylesheet" type="text/css" href="reset.css"/>
-<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+<link href="lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
+
 </head>
 <body>
 	<div class="banner">
@@ -31,25 +34,46 @@
 		<div class="article">
 			<h3>Animations</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<div class="gallery">
+				
+				<div class="mainvid">
+					<div class="prevvid">
+				    </div>
+					<video width="320" height="240" controls>
+					  <source src="videos/water_drop.webm" type="video/webm">
+					Your browser does not support the video tag. Please update it or switch browsers to view the videos.
+					</video>
+				    <div class="nextvid">
+					</div>
+			    </div>
+				<div class="vidthumbs">
+					<a href="videos/water_drop.webm"><img src="images/thumbs/water_drop_t.png" alt="" class="vid"> </a>
+					<a href="videos/weight-lifter.webm"><img src="images/thumbs/weight_lifter_t.png" alt="" class="vid"> </a>
+					<a href="videos/explosion.webm"><img src="images/thumbs/explosion_t.png" alt="" class="vid"> </a>
+					<a href="videos/Head_Rotation_v2.webm"><img src="images/thumbs/head_rotation_t.png" alt="" class="vid"> </a>
+					<a href="videos/llama.webm"><img src="images/thumbs/llama_t.png" alt="" class="vid"> </a>
+					<a href="videos/pixie-dust.webm"><img src="images/thumbs/pixie_dust_t.png" alt="" class="vid"> </a>
+				</div>
+			</div>
 		</div>
 		<div class="article">
 			<h3>Illustrations</h3>
 			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			<div class="gallery">
 				<div class="st">
-					<a href="#"><img src="images/thumbs/asuka_t.jpg" alt=""></a>
-					<a href="#"><img src="images/thumbs/flamingo_t.jpg" alt=""></a>
-					<a href="#"><img src="images/thumbs/kawoshin-sephia_t.jpg" alt=""></a>
-					<a href="#"><img src="images/thumbs/luke-matteo-colour_t.jpg" alt=""></a>
-					<a href="#"><img src="images/thumbs/moon-fighter_t.jpg" alt=""></a>
-					<a href="#"><img src="images/thumbs/moon-uranus-waltz_t.jpg" alt=""></a>
-					<a href="#"><img src="images/thumbs/rokuri-little-shadow_t.jpg" alt=""></a>
-					<a href="#"><img src="images/thumbs/sailor-v_t.jpg" alt=""></a>
-					<a href="#"><img src="images/thumbs/sakura-flying_t.jpg" alt=""></a>
+					<a href="images/asuka-resized.png" data-lightbox="image-1" data-title="Asuka"><img src="images/thumbs/asuka_t.jpg" alt=""></a>
+					<a href="images/flamingo.jpg" data-lightbox="image-1" data-title="Flamingo"><img src="images/thumbs/flamingo_t.jpg" alt=""></a>
+					<a href="images/kawoshin-sephia.jpg" data-lightbox="image-1" data-title="Kawoshin Sephia"><img src="images/thumbs/kawoshin-sephia_t.jpg" alt=""></a>
+					<a href="images/Luke-Matteo-colour.jpg" data-lightbox="image-1" data-title="Luke & Matteo"><img src="images/thumbs/luke-matteo-colour_t.jpg" alt=""></a>
+					<a href="images/moon-fighter.jpg" data-lightbox="image-1" data-title="Moon Fighter"><img src="images/thumbs/moon-fighter_t.jpg" alt=""></a>
+					<a href="images/moon-uranus-waltz.jpg" data-lightbox="image-1" data-title="Sailor Moon & Uranus"><img src="images/thumbs/moon-uranus-waltz_t.jpg" alt=""></a>
+					<a href="images/rokuri-little-shadow.png"data-lightbox="image-1" data-title="Rokuri"><img src="images/thumbs/rokuri-little-shadow_t.jpg" alt=""></a>
+					<a href="images/sailor-v.png" data-lightbox="image-1" data-title="Sakura"><img src="images/thumbs/sailor-v_t.jpg" alt=""></a>
+					<a href="images/sakura-flying.jpg" data-lightbox="image-1" data-title="Sakura"><img src="images/thumbs/sakura-flying_t.jpg" alt=""></a>
 					</div>
 				<div class="lt">
-					<a href="#"><img src="images/thumbs/lace_t.jpg" alt=""></a>
-					<a href="#"><img src="images/thumbs/september_19_0001_t.jpg" alt=""></a>
+					<a href="images/lace.jpg"data-lightbox="image-1" data-title="Lace"><img src="images/thumbs/lace_t.jpg" alt=""></a>
+					<a href="images/September_19_0001-resized.tif" data-lightbox="image-1" data-title="September"><img src="images/thumbs/september_19_0001_t.jpg" alt=""></a>
 				</div>
 			</div>
 		</div>
@@ -58,6 +82,7 @@
 
 	</div>
 
-
+<script src="lightbox2-master/dist/js/lightbox-plus-jquery.js"></script>
+<script src="javascript.js"></script>
 </body>
 </html>

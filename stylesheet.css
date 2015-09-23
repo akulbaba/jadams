@@ -116,6 +116,43 @@ html, body {
 	display: inline-block;
 	margin: 5px auto 5px auto;
 	border-radius: 7px;
+	border: 2px solid #F3E5AA;
+	box-sizing: border-box;
+}
+
+.gallery img:hover {
+	border: 2px solid #903F3B;
+
+}
+
+.mainvid {
+	border: 2px solid #903F3B;
+	border-radius: 5px;
+	padding: 10px;
+	width: auto;
+}
+
+.prevvid {
+	background: url(lightbox2-master/dist/images/prev.png) no-repeat center;
+}
+
+.nextvid {
+	background: url(lightbox2-master/dist/images/next.png) no-repeat center;
+}
+
+.prevvid, .nextvid {
+	width: 50px;
+	height: 240px;
+	opacity: 0;
+}
+
+.prevvid > img:hover, .nextvid > img:hover {
+	border: 0;
+}
+
+.prevvid, .nextvid, .mainvid {
+	display: inline-block;
+	margin: 10px;
 }
 
 @media (max-width: 1000px) {
